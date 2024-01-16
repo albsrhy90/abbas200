@@ -88,7 +88,7 @@ def users():
 	       user1 = v3+v1+v3+v3+v3
 	       user2 = v3+v3+v1+v3+v3
 	       user3 = v3+v3+v3+v1+v3
-	       user4 = v1+'_'+v2+'_'+v3+v3+v3
+	       user4 = v1+v3+v3+v1+v3
 	       hamo010 = (user1, user2, user3, user4)
 	       user = random.choice(hamo010)
 	       instaa(user)
